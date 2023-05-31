@@ -1,0 +1,455 @@
+{
+  "id": "e248828b-e155-47d3-a103-103d50ffe7b9",
+  "version": "2.0",
+  "name": "chatpdf2",
+  "url": "https://www.chatpdf.com",
+  "tests": [{
+    "id": "850889cd-8842-44d5-8773-d8d5705f70a2",
+    "name": "questions",
+    "commands": [{
+      "id": "58d1b5c3-5fd3-4e1f-8e98-dce8052a8e82",
+      "comment": "",
+      "command": "store",
+      "target": "c/UEPtcKsARCJU3wdSMltms",
+      "targets": [],
+      "value": "pageURL"
+    }, {
+      "id": "ad3bc7a3-b9bd-4292-a4f1-096da42a7f4f",
+      "comment": "",
+      "command": "open",
+      "target": "${pageURL}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "487857b2-f34c-4100-8644-8f0543b58045",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "21700319-8d1c-4783-9634-e8d493199faf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Hello, I need you to provide some information about the paper, are you ready? "
+    }, {
+      "id": "c01bfba8-797b-4543-8e4e-8127ee432379",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "eed107a0-6915-4cff-85fa-dc925c78a500",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c45c88f-2b30-4738-b02d-cd9706d8d708",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Please provide me with the following information:\\nC.Author:\\nE.TITLE:\\nF.Keyword:\\nG.the Journal of the paper\\nH.year for published of the paper"
+    }, {
+      "id": "6f5e7adb-bae5-4f41-9ca1-3197ee7f1d02",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "518a303e-8602-4e0b-b414-e3a8f20e91f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ca6c642-1644-4256-91a4-dd08b528c7f8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "2J. Method: Research approach? 3K. Future: Suggested directions? 4L. Objectives: Main goals/aims?"
+    }, {
+      "id": "9d37492e-d312-4d9a-8c8c-c20f9ae0c17a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "1a46a554-5f93-43ce-a210-c853e29c5a06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67910aaf-57f0-4d99-ae89-60893c655164",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "5M. Results/Findings: Key outcomes/discoveries? 6N. Contribution: Broader knowledge? 7O. Strengths/Limits: Main strengths/weaknesses?"
+    }, {
+      "id": "37e1f327-53cc-4c69-a69d-9485be33a46a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "a0cba924-5203-40f4-880b-4fd54eea763e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "882f0245-86ad-44bb-95f9-a701cb95b073",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "8P. Explanation: Mechanisms/tools? 9Q. Framework: Proposed/built? 10R. Definition: Main concept?"
+    }, {
+      "id": "53a9b63b-e2fc-4cc2-b739-684a4f08a04d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "d66317d1-f4cb-4d8c-a3e0-9731c6f6a6fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e4050a-c1f4-4e71-95f3-78cd91a0db5d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "11S.Ctrl Vars: Info avail? Specify ctrl vars. 12T.Measures: Sources? Describe items/scales. 13U.Vars/Measures: Defined/measured? Valid/reliable?"
+    }, {
+      "id": "95e05df2-bd6f-49c5-98c8-b315d7b678e1",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "778f38a5-bb05-46ee-aace-f4250a713ee9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60e6c192-d9d9-4173-9b4f-1a73bc3955eb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "14V.Scale: Type? Specify. 15W.Design: Type? Limitations/biases? 16X.Analysis: Methods? Appropriate? Limitations/assumptions? 17Y.Sample/Data: Size/comp? Collected? Limitations/biases?"
+    }, {
+      "id": "f2d4105a-a3e7-4a3c-bf79-224131706a90",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "28df0f45-db50-4af5-9579-559a2de3020c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f2ed0c6-cf37-45c7-9a67-32857c1f2466",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "9746eddd-1171-472f-bd8a-67a13adf4bb5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "18Z.Model: Components? 19AA.Hypotheses: Summarize. 20AB.Mediator: Variables? 21AC.Moderator: Variables? 22AE.Discussion: Interpret/implications?"
+    }, {
+      "id": "cac3ed46-f480-419d-97cb-ce0a3b1a92d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cadae0df-513d-448e-b622-dc37ab549e59",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "680a58cc-3bd4-495e-bddf-fcd69d5a6488",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "23AF.Industry/Country? 24AI.Structure? 25AK.DOI?"
+    }, {
+      "id": "8578662e-9c78-4cb9-a1ae-1ac035940a00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4320e4ac-9088-444c-96c4-d904a8c0ec67",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "eb0dd77e-45e0-416b-8b84-7c9c018bead1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "good bye, thanks"
+    }, {
+      "id": "9c58a80d-ceb2-435f-9e47-93ed86b16de7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "6000"
+    }, {
+      "id": "45b378f8-723e-409a-88b8-9b9442e9bc68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50818c52-5d9a-4773-8fe7-92d88c109e96",
+      "comment": "Download",
+      "command": "click",
+      "target": "css=.anticon-download path",
+      "targets": [
+        ["css=.anticon-download path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "02e0e3f2-6ffa-45d9-a1cd-a2be445f19d1",
+    "name": "loadpdf",
+    "commands": [{
+      "id": "dc9d2000-56df-4b51-84c8-f28bfa391438",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "524bfc9f-6b34-472d-b791-b3800e6b42dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.from-url-button",
+      "targets": [
+        ["css=.from-url-button", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'From URL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d7f035-13d7-4bae-873a-07e7b5d05ba0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='https://raw.githubusercontent.com/albertogalan/researchpdf/main/pdfs/r1.pdf']", "xpath:attributes"],
+        ["xpath=//div/div/span/input", "xpath:position"]
+      ],
+      "value": "https://raw.githubusercontent.com/albertogalan/researchpdf/main/pdfs/r1.pdf"
+    }, {
+      "id": "5e366df7-60f3-44c3-807b-6fae7c5f385b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-btn-primary > span", "css:finder"],
+        ["xpath=//span/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b6f5030-1b1f-4c6f-9f50-b99cba88f77b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "71adb6d9-d7e9-434d-bce1-98cb693e525b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "ad27215a-cfd4-44b0-b851-71cc8c0765ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde994eb-81a3-4f5c-ac2f-39e2eebf53f9",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "610b1cee-0047-4f84-b77e-79f513993dd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-download > svg",
+      "targets": [
+        ["css=.anticon-download > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dae4a3e-e699-4ca1-89b3-eb62b5df5922",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e3139484-98f4-4a2f-857f-1e7074cf490a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["850889cd-8842-44d5-8773-d8d5705f70a2"]
+  }],
+  "urls": ["https://www.chatpdf.com/"],
+  "plugins": []
+}
