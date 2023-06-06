@@ -1,0 +1,1013 @@
+{
+  "id": "e248828b-e155-47d3-a103-103d50ffe7b9",
+  "version": "2.0",
+  "name": "chatpdf2",
+  "url": "https://www.chatpdf.com",
+  "tests": [{
+    "id": "850889cd-8842-44d5-8773-d8d5705f70a2",
+    "name": "questions",
+    "commands": [{
+      "id": "c22cb48e-4df6-47e0-b9b0-ea4274294d55",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58d1b5c3-5fd3-4e1f-8e98-dce8052a8e82",
+      "comment": "",
+      "command": "store",
+      "target": "r1",
+      "targets": [],
+      "value": "doc"
+    }, {
+      "id": "95d03da6-d11b-4713-9724-0b4873cd0aba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=r2.pdf",
+      "targets": [
+        ["linkText=r1.pdf", "linkText"],
+        ["css=.chat-history-block-container a", "css:finder"],
+        ["xpath=//a[contains(text(),'r1.pdf')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/c/dube20QfARA2Fy1CFy8M2')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'r1.pdf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "487857b2-f34c-4100-8644-8f0543b58045",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "21700319-8d1c-4783-9634-e8d493199faf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "as you are reasearch expert ,Could you please analyze the article in a more comprehensive and deeply and professional manner, find the answers to the research question in the article below  C.who is the Author:\\nE.what is TITLE:\\nF.what is the Keywords：\\nG.the Journal of the paper:\\nH.When was it published? \\n"
+    }, {
+      "id": "c01bfba8-797b-4543-8e4e-8127ee432379",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "eed107a0-6915-4cff-85fa-dc925c78a500",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c45c88f-2b30-4738-b02d-cd9706d8d708",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "1. research question:\\n   a. What was the main research question addressed in the study? Summarize the research question investigated by the authors.\\n"
+    }, {
+      "id": "6f5e7adb-bae5-4f41-9ca1-3197ee7f1d02",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "518a303e-8602-4e0b-b414-e3a8f20e91f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ca6c642-1644-4256-91a4-dd08b528c7f8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "2. Research Objectives:\\n   a. What were the objectives of the research? Describe the main goals or aims of the study.\\n"
+    }, {
+      "id": "9d37492e-d312-4d9a-8c8c-c20f9ae0c17a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "1a46a554-5f93-43ce-a210-c853e29c5a06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67910aaf-57f0-4d99-ae89-60893c655164",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "3. Method:\\n   a. How did the authors conduct their research? Provide the specific research approach used (e.g., empirical survey, case study, models and simulations, field research/field experiments, theoretical/conceptual study).\\n"
+    }, {
+      "id": "37e1f327-53cc-4c69-a69d-9485be33a46a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "a0cba924-5203-40f4-880b-4fd54eea763e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "882f0245-86ad-44bb-95f9-a701cb95b073",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "4. Future Research:\\n   a.Did the authors suggest any directions for future research? If so, provide a brief summary of the potential areas or topics for future investigation.\\n   b. Based on the study's findings, what are potential avenues for future research?\\n   c. Did the authors identify any unanswered questions or areas for further investigation?\\n"
+    }, {
+      "id": "53a9b63b-e2fc-4cc2-b739-684a4f08a04d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "d66317d1-f4cb-4d8c-a3e0-9731c6f6a6fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e4050a-c1f4-4e71-95f3-78cd91a0db5d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "5. Results/Findings:\\n   a. What were the main results or findings of the study? Summarize the key outcomes or discoveries reported by the researchers.\\n   b. How do the results align with the research objectives and hypotheses?\\n   c. Are there any unexpected or contradictory findings?\\n"
+    }, {
+      "id": "95e05df2-bd6f-49c5-98c8-b315d7b678e1",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "778f38a5-bb05-46ee-aace-f4250a713ee9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60e6c192-d9d9-4173-9b4f-1a73bc3955eb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "6. Overall Contribution:\\n   a. How does this study contribute to the broader knowledge in the field?\\n   b. Does it provide new insights, confirm existing theories, or offer practical implications?\\n"
+    }, {
+      "id": "f2d4105a-a3e7-4a3c-bf79-224131706a90",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "28df0f45-db50-4af5-9579-559a2de3020c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f2ed0c6-cf37-45c7-9a67-32857c1f2466",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "9746eddd-1171-472f-bd8a-67a13adf4bb5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "7. Discussion and Interpretation:\\n    a. How do the authors interpret the results in relation to the research questions?\\n    b. Are alternative explanations or interpretations considered?\\nc. What are the implications and significance of the findings?\\n"
+    }, {
+      "id": "cac3ed46-f480-419d-97cb-ce0a3b1a92d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cadae0df-513d-448e-b622-dc37ab549e59",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "21a7818d-2ecd-4b4b-8385-801d31a053fa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "8. Strengths and Limitations:\\n   a. What are the main strengths and weaknesses of the study?\\n   b. Are there any limitations that may impact the validity or generalizability of the findings?\\n"
+    }, {
+      "id": "5d2ddc97-94c3-4a04-a397-417f4ce2fb3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd4b3e1-a650-4534-a3f3-96318ba69381",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "508317da-f6e0-4bf9-9927-f618fb26aa32",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "9.Industry \\na. Which industry was the focus of the study? Specify if it was manufacturing, services, both, fashion, medicine, or provide additional industry options if relevant.\\n"
+    }, {
+      "id": "d02c4983-8a17-48ee-9885-4d398d43e135",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06b11fe0-621b-4118-ae9b-e735c2b6cd78",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "875b4a7c-07fd-4edf-a408-1e392fc423f9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "10.Country:\\n\\n   a. Which country was the focus of the study?\\n"
+    }, {
+      "id": "0ec1e3bd-9e3c-4c53-8607-a08f9b577875",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f1007ff-6c14-4e75-a7c6-c0888851294f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "7e3c3333-cf0b-4d92-853e-a08fb367e073",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "11. Research Design:\\n   a. What is the study's research design (e.g., experimental, observational, qualitative, quantitative)?\\n   b. Are there any limitations or potential biases associated with the chosen research design?\\n\\n   c. How do these limitations affect the interpretation of the results?\\n"
+    }, {
+      "id": "cb92aab7-5e5d-47bc-be9a-96b5fc297ef4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75fc6ae6-1638-4be3-830b-4facd1b3a4da",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "48738103-ed04-42a4-81c9-019e0bb4d8eb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "12. Mechanisms or Tools:\\n   a. Could you please provide a detailed explanation of the mechanisms or tools employed in the study?\\n"
+    }, {
+      "id": "766bf96c-480c-4713-b338-171aafc8137c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74299bc2-958d-44a0-af78-8929fe13be09",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "f710bc77-e72a-41e1-a277-81cf798c99a2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "13. Theoretical Framework:\\n    a. Did the study propose or build upon any theoretical frameworks? If yes, provide a brief explanation of the theory/theories utilized in the research.\\n    b. How well does the chosen theoretical framework align with the research objectives?\\n"
+    }, {
+      "id": "ca74feb4-4c65-4813-ba7f-e545392d64fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0d0aa65-1994-4332-ac0f-56fc309bc64c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "21c5d96c-6a3e-4a4e-bb62-38316ad57d20",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "14. Theoretical Definition:\\n    a. Define the main theoretical concept used in the study. Provide a clear definition of the concept (e.g., agility) based on the research.\\n"
+    }, {
+      "id": "b4a217f8-bd74-411c-9ff4-c077fb40f029",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b78fd311-7e52-415a-b7ee-d9313fee7a45",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "b8718b18-08ad-493f-b32b-a1f9e21a72ee",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "15. Control Variables:\\n    a. Were there any control variables included in the analysis? Indicate if there was no information available or specify the control variables considered in the research.\\n"
+    }, {
+      "id": "203886c1-0934-4733-ba30-b7e5d3c63746",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9acf43fb-68c8-4632-9ca2-23ecbce30781",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "381ee368-292b-462a-a0f1-4598b7cfb79d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "16. Sources of Measures:\\n    a. What were the sources of measures used in the study? Describe the origins or references of the measurement items or scales employed.\\n"
+    }, {
+      "id": "1e2e7c9b-caca-43ad-ab4d-e912f0dece53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "312daad8-4109-4169-8a5f-9c2a968c2c9a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "01bbe4ea-b99f-4f4e-a42a-b7bd5f362855",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "17. Variables and Measures:\\n    a. What are the main variables of interest in the study?\\n    b. How are these variables defined and measured?\\n    c. Are the chosen measures valid and reliable?\\n"
+    }, {
+      "id": "4fd3e0a9-9132-4caa-a80f-b8cb29ea503a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa71caf9-49b8-47fd-b705-f8b58842d046",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "5fd7c842-1597-40e4-962b-4e5cf2593437",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "18. Measurement Scale:\\n    a. What type of measurement scale was used in the study? Specify the scale employed for data collection (e.g., Likert scale, interval scale, nominal scale).\\n"
+    }, {
+      "id": "7f3c2ed4-94fa-4231-aa9e-2e55e0fd7b6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d8ffa89-4e54-46fa-92d1-684e74cf1741",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "04759917-9b19-4139-ba43-ccddf52657ba",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "19. Data Analysis:\\n    a. What statistical or analytical methods were used to analyze the data?\\n    b. Are the chosen methods appropriate for the research questions and data?\\n    c. Are there any potential limitations or assumptions associated with the data analysis?\\n"
+    }, {
+      "id": "3a563979-da8b-45b3-82a4-bb43941a889c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6fb4a05-aa7d-40a1-bc10-dc51f961d269",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "303302a8-c45e-4c4a-9c33-61cdd9a231bd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "20. Sample and Data Collection:\\n    a. What is the sample size and composition?\\n    b. How were the data collected (e.g., surveys, interviews, observations)?\\n    c. Are there any potential limitations or biases related to the sample orSure! Here are the remaining optimized questions:\\n"
+    }, {
+      "id": "8f1af26d-d3f9-4dc6-9c41-629aa70b933c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d78a2ff0-3981-4551-bf74-6dde1b4a19b2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "f41481ce-4fdb-4987-9a43-5ad02577088d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "21. Conceptual Model (Figure):\\n    a. Did the study propose a conceptual model? If yes, describe the main components or structure of the model.\\n"
+    }, {
+      "id": "ad115b09-79c8-47ff-844d-c179b8176252",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1286d5f-246a-45f0-9efd-fe5133b18986",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "dc1719f1-0380-41b6-9dd3-24b8f610e6af",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "22. Hypotheses:\\n    a. What hypotheses were tested in the study? Summarize the specific hypotheses examined by the researchers.\\n"
+    }, {
+      "id": "6b3b1a73-6d1e-484a-b4ad-04c4b3d81eca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59ec7586-091e-4ad4-9259-07e4dd9cdc04",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "114d7bf0-6f97-4662-b47a-77493f026f0d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "23. Mediator:\\n    a. Did the study investigate any mediator variables? If yes, provide information about the variables that were considered as mediators in the research.\\n"
+    }, {
+      "id": "dd5351dd-8eae-4693-b2aa-a7eb4e819d03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7240e520-677b-42c7-a5bd-dd93ca03aadd",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "dce6dd3a-69f1-4462-bf5a-75932bcb0dfe",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "24. Moderator:\\n    a. Did the study examine any moderator variables? If yes, describe the variables that were analyzed as moderators in the study.\\n"
+    }, {
+      "id": "06706ed6-c794-4a04-abf0-5b6883278a0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acaaad50-808f-48d6-bdb9-fcc4d6101ac5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "716483d4-4ca9-4a50-977a-8b5ee326145b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "25. Paper Structure:\\n    a. Could you please provide a detailed explanation of the structure of the paper?\\n"
+    }, {
+      "id": "9327808d-22f4-43d2-97ea-d208d18e09a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a181edd-128c-45a2-86ee-073ac6c600bc",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "50000"
+    }, {
+      "id": "eb0dd77e-45e0-416b-8b84-7c9c018bead1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "good bye, thanks"
+    }, {
+      "id": "9c58a80d-ceb2-435f-9e47-93ed86b16de7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "6000"
+    }, {
+      "id": "45b378f8-723e-409a-88b8-9b9442e9bc68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50818c52-5d9a-4773-8fe7-92d88c109e96",
+      "comment": "Download",
+      "command": "click",
+      "target": "css=.anticon-download path",
+      "targets": [
+        ["css=.anticon-download path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "02e0e3f2-6ffa-45d9-a1cd-a2be445f19d1",
+    "name": "loadpdf",
+    "commands": [{
+      "id": "dc9d2000-56df-4b51-84c8-f28bfa391438",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "524bfc9f-6b34-472d-b791-b3800e6b42dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.from-url-button",
+      "targets": [
+        ["css=.from-url-button", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'From URL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d7f035-13d7-4bae-873a-07e7b5d05ba0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//input[@value='https://raw.githubusercontent.com/albertogalan/researchpdf/main/pdfs/r1.pdf']", "xpath:attributes"],
+        ["xpath=//div/div/span/input", "xpath:position"]
+      ],
+      "value": "https://raw.githubusercontent.com/albertogalan/researchpdf/main/pdfs/r2.pdf"
+    }, {
+      "id": "5e366df7-60f3-44c3-807b-6fae7c5f385b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary > span",
+      "targets": [
+        ["css=.ant-btn-primary > span", "css:finder"],
+        ["xpath=//span/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b6f5030-1b1f-4c6f-9f50-b99cba88f77b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "71adb6d9-d7e9-434d-bce1-98cb693e525b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ant-input",
+      "targets": [
+        ["css=.ant-input", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "ad27215a-cfd4-44b0-b851-71cc8c0765ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn",
+      "targets": [
+        ["css=.ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde994eb-81a3-4f5c-ac2f-39e2eebf53f9",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.ant-btn:not([disabled])",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "610b1cee-0047-4f84-b77e-79f513993dd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-download > svg",
+      "targets": [
+        ["css=.anticon-download > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dae4a3e-e699-4ca1-89b3-eb62b5df5922",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8b16a0b5-3a11-4dc6-b273-23e82c2388b9",
+    "name": "click first",
+    "commands": [{
+      "id": "db47eacd-14a1-4f76-a450-31181a8e1fe7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5edaec0-2899-4682-9e43-e0faaf9b788e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0e33023-bbcb-4e54-9e64-f3ff25639ca0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=r1.pdf",
+      "targets": [
+        ["linkText=r1.pdf", "linkText"],
+        ["css=.chat-history-block-container a", "css:finder"],
+        ["xpath=//a[contains(text(),'r1.pdf')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/c/dube20QfARA2Fy1CFy8M2')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'r1.pdf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e3139484-98f4-4a2f-857f-1e7074cf490a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["850889cd-8842-44d5-8773-d8d5705f70a2"]
+  }],
+  "urls": ["https://www.chatpdf.com/"],
+  "plugins": []
+}
